@@ -1,0 +1,120 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+}
+.btn{
+    margin-left: -5px;
+}
+.Text{
+    margin-left: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+h1{
+    color: black;
+    font-weight: 100;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin-left: 90px;
+    margin-top: 50px;
+    opacity: 0.9;
+}
+.mail{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    color: purple;
+    margin-left: 100px;
+}
+.sub{
+    padding: 10px 20px;
+    background-color:white;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+.Email{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.right{
+    margin-top: -50px;
+    opacity: 0.9;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.Course{
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px rgb(226, 225, 225);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.purple{
+    
+    color: purple;
+    border: 0.1px solid purple;
+    border-radius: 5px;
+    padding: 13px 25px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+
+}
+.purple:hover{
+    background-color: rgb(191, 18, 191);
+    color: white;
+    cursor: pointer;
+}
+.green{
+    color: green;
+    border: 0.1px solid green;
+    border-radius: 5px;
+    padding: 13px 35px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.green:hover{
+    background-color: rgb(23, 169, 23);
+    color: white;
+    cursor: pointer;
+}
+p{
+    line-height: 25px;
+}
+.search{
+    margin-top: 20px;
+}
+.card-heading{
+    font-size: 18px;
+}
